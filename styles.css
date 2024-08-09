@@ -1,26 +1,51 @@
-body {
-  background-color: rgb(240, 240, 231);
-  text-align: center;
-  width: 50%;
-  margin-left: 450px;
-  line-height: 20px;
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
+h1 {
+  text-align: left;
+  margin-left: 50px;
+  padding-top: 25px;
+  font-family: 'Open Sans', sans-serif;
+  border-bottom: 5px solid rgb(0, 0, 0);
 }
+
+h2 {
+  text-align: left;
+  margin-left: 50px;
+  padding-top: 10px;
+  line-height: 1,7;
+}
+
+span {
+  text-decoration: underline rgb(0, 0, 0);
+}
+
+body {
+  background: linear-gradient(to right, #1abc9c, #3498db);
+}
+
+ #contenido {
+  background-color: beige;
+  overflow: auto;
+  padding: 20px;
+  margin-bottom: 20px;
+ }
+
 p {
-  background-color: lightgoldenrodyellow;
   line-height: 40px;
+  font-size: 18px;
+  text-align: left;
+  margin-right: 100px;
+  text-indent: 30px;
 }
 
 .image {
-  border: 5px solid green;
+  float: left;
+  margin-right: 20px;
+  margin-left: 50px;
   border-radius: 10px;
-  height: 400px;
+  height: 290px;
 }
 
 .link-button {
+  margin-left: 50px;
   text-decoration: none;
   color: black;
   border: 1px solid none;
