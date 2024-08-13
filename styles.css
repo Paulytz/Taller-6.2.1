@@ -1,12 +1,23 @@
+@keyframes scaleUp {
+  from { transform: scale(0);}
+  to { transform: scale(1);}
+}
+
 h1 {
-  text-align: left;
+  font-size: 4;
+  color: white;
+  text-shadow: 2px 2px 4px #ff05ffef; 
+  text-align: center;
   margin-left: 50px;
   padding-top: 25px;
-  font-family: 'Open Sans', sans-serif;
-  border-bottom: 5px solid rgb(0, 0, 0);
+  font-family: 'Open Sans', sans-serif, fantasy;
+  border-bottom: 5px solid rgb(255, 255, 255);
+  animation: scaleUp 2s ease-in-out;
 }
 
 h2 {
+  color: rgb(55, 5, 238);
+  background: radial-gradient(#00fff2,rgba(83, 255, 3, 0.932));
   text-align: left;
   margin-left: 50px;
   padding-top: 10px;
